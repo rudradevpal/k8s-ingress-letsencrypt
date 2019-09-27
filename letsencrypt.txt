@@ -8,7 +8,7 @@ Enter your details and pass the I am not a robot challenge and click View
 Issue the following to generate your CloudFlare API Key Secret
 
 
-API_KEY=$(echo -n 3f7cfa1ecfe4643a2adf16eddce92f40b1fa7 | base64 -)
+API_KEY=$(echo -n 3f7c56a1ecfe4643a2adf16eddce92f40b1fa7 | base64 -)
 cat <<EOF | kubectl apply -f -
 ---
 apiVersion: v1
